@@ -12,41 +12,74 @@ Model evaluation was performed using stratified grouped 5-fold cross-validation 
 ---
 
 ## Repository Structure
+
+```
+
 ├── Parkinsons_Disease.csv
 ├── Parkinsons_Detection.ipynb
 ├── README.md
 
+````
+
+---
 
 ## Installation / Dependencies
+
 To run this project, install the required Python libraries:
 
-```bash id="install"
+```bash
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
+````
 
-How to Run the Project
-Option 1: Google Colab (Recommended)
-Open Parkinsons_Detection.ipynb in Google Colab
-Upload the dataset (Parkinsons_Disease.csv) when prompted
-Run all cells sequentially
-Option 2: Local Environment
-Clone the repository:
+---
+
+## How to Run the Project
+
+### Option 1: Google Colab (Recommended)
+
+1. Open `Parkinsons_Detection.ipynb` in Google Colab
+2. Upload the dataset (`Parkinsons_Disease.csv`) when prompted
+3. Run all cells sequentially
+
+### Option 2: Local Environment
+
+1. Clone the repository:
+
+```bash
 git clone <repository-url>
-Install dependencies (see above)
-Run the Jupyter notebook:
+```
+
+2. Install dependencies (see above)
+
+3. Run the Jupyter notebook:
+
+```bash
 jupyter notebook Parkinsons_Detection.ipynb
-Machine Learning Models
-Logistic Regression
+```
+
+---
+
+## Machine Learning Models
+
+### Logistic Regression
 
 A baseline classification model implemented using Scikit-learn. It outputs probabilities for binary classification of Parkinson’s disease based on vocal features.
 
-Neural Network
+### Neural Network
 
 A feedforward neural network implemented using TensorFlow/Keras to capture nonlinear relationships in the dataset.
 
-Evaluation Method
-Stratified grouped 5-fold cross-validation
-Metrics: Accuracy, Precision, Recall, F1-score
-Grouping ensures recordings from the same subject remain in the same fold
-Notes
-This project was developed using Google Colab
-The dataset contains vocal acoustic measurements derived from voice recordings
+---
+
+## Evaluation Method
+
+* Stratified grouped 5-fold cross-validation
+* Metrics: Accuracy, Precision, Recall, F1-score
+* Grouping ensures recordings from the same subject remain in the same fold to prevent data leakage
+
+---
+
+## Notes
+
+* This project was developed using Google Colab
+* The dataset contains vocal acoustic measurements derived from voice recordings
