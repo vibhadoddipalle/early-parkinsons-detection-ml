@@ -14,10 +14,10 @@ Model evaluation was performed using stratified grouped 5-fold cross-validation 
 ## Repository Structure
 
 ```
-
-├── Parkinsons_Disease.csv
-├── Parkinsons_Detection.ipynb
 ├── README.md
+├── Parkinsons_Disease.csv (dataset)
+├── Parkinsons_Detection.ipynb (Notebooj containing Code, Results, and Tests)
+├── Final Report
 
 ````
 
