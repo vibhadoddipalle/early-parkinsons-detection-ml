@@ -16,7 +16,7 @@ Model evaluation was performed using stratified grouped 5-fold cross-validation 
 ```
 ├── README.md
 ├── Parkinsons_Disease.csv (dataset)
-├── Parkinsons_Detection.ipynb (Notebooj containing Code, Results, and Tests)
+├── ⭐Final Project Parkinson's Predictor.ipynb (Notebook containing Code, Results, and Tests)
 ├── Final Report
 
 ````
