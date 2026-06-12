@@ -17,7 +17,7 @@ Model evaluation was performed using stratified grouped 5-fold cross-validation 
 ├── README.md
 ├── Parkinsons_Disease.csv (dataset)
 ├── ⭐Final Project Parkinson's Predictor.ipynb (Notebook containing Code, Results, and Tests)
-├── Final Report
+├── Vocal Acoustic Biomarker Analysis for Early Parkinson’s Disease Detection_ A Machine Learning Approach BE175_ Final Report.pdf
 
 ````
 
